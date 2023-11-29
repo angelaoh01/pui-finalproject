@@ -1,0 +1,107 @@
+* {
+    box-sizing: content-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: rgb(220, 146, 35);
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+
+    /* center content */
+    margin: 5%;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: 900;
+    }
+h2 {
+color: rgb(0, 0, 0);
+text-align: center;
+font-size: 28px;
+text-decoration: none;
+font-weight:300;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 70%;
+    justify-content: space-around;
+}
+
+#logo {
+    width: 70%;
+}
+/* SECTION 1: FRONT PAGE */
+
+#main {
+    display: flex;
+    height: 600px;
+    background-color: antiquewhite;
+}
+
+#main-title {
+    flex-basis: 100%;
+    align-self: center;;
+}
+
+/* SECTION 2: INFO */
+
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#info-description{
+    flex-basis: 30%;
+}
+
+#info-description > h1{
+    text-align: left;
+}
+
+#info-description > p{
+    font-size: 20px;
+}
+
+#info-picture{
+    flex-basis: 70%;
+    align-self: center;
+}
+
+#info-img{
+    width: 100%;
+}
+
+/* SECTION 3: VERSE AND PICTURES*/
+
+#verse-picture{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#verse-picture > p{
+    text-align: center;
+}
