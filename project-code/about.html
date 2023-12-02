@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link type="text/css" rel="stylesheet" href="/materialize/css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="about.css">
+    <script defer src="about.js"></script>
+    <script type="text/javascript" src="/materialize/js/materialize.min.js"></script>
+  </head>
+
+  <body>
+    <header id = "nav-bar">
+        <a href="/project-code/home.html"> <img id = "logo" src="/assets/Screen_Shot_2023-11-28_at_10.11.02_AM-removebg-preview.png"
+          alt="church logo"/> </a>
+        <div id = "nav-options">
+          <a href="/project-code/home.html" id = "home"> Home </a>
+          <a href="/project-code/about.html" id = "about-us"> About Us </a>
+          </div>
+    </header>
+    <div id = "title">
+        <h1> About our Church</h1>
+    </div>
+    <div id = "add-info">
+        <div class="tab">
+          <button id = "defaultOpen" class="tablinks" onmouseover="openCity(event, 'Mission')">Mission</button>
+          <button class="tablinks" onmouseover="openCity(event, 'Community')">Community</button>
+          <button class="tablinks" onmouseover="openCity(event, 'Events')">Events</button>
+        </div>
+        
+        <div id="Mission" class="tabcontent">
+          <h3>Mission</h3>
+          <p>London is the capital city of England.</p>
+        </div>
+        
+        <div id="Community" class="tabcontent">
+          <h3>Community</h3>
+          <p>Paris is the capital of France.</p>
+        </div>
+        
+        <div id="Events" class="tabcontent">
+          <h3>Events</h3>
+          <p>Tokyo is the capital of Japan.</p>
+        </div>
+    </div>
+  </body>

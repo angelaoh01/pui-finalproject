@@ -3,46 +3,107 @@
   <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/materialize/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="home.css">
     <script defer src="home.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="/materialize/js/materialize.min.js"></script>
   </head>
 
   <body>
     <header id = "nav-bar">
       <a href="/project-code/home.html"> <img id = "logo" src="/assets/Screen_Shot_2023-11-28_at_10.11.02_AM-removebg-preview.png"
         alt="church logo"/> </a>
-      <nav>
-        <a href="/project-code/home.html"> <h3 id="home">
-            Home </h3></a>
-        <a href="/project-code/home.html"> <h3 id="home">
-            Home </h3> </a>
-      </nav>
+      <div id = "nav-options">
+        <a href="/project-code/home.html" id = "home"> Home </a>
+        <a href="/project-code/about.html" id = "about-us"> About Us </a>
+        </div>
     </header>
-    <hr>
     <div id = "main">
       <h1 id = "main-title"> Central Church </h1>
     </div>
     <div id = "info">
       <div id = "info-description">
-        <h1 id = "info-header"> Welcome</h1>
-        <p id = "info-text"> Central Church is a non-denominational protest church in Pittsburgh, PA.
-          If you are interested in attending our church, we have weekly Sunday worship at 9:00 am located at
-          821 South Aiken Avenue Pittsburgh, PA 15232.
+        <h1 id = "info-header"> Hi there</h1>
+        <h2 id = "info-header-des"> Welcome to Central Church </h2>
+        <p id = "info-text"> Central Church exists to make and mature disciples of Jesus Christ, so that the Gospel of Jesus Christ is the foundational principle through which we live in our homes, in our church, in our work, and in the city of Pittsburgh.
         </p>
-        <p id = "info-about"> If you want to know more about our church</p>
-        <button id = "info-button"> About our Church </button>
+        <div id = "service">
+          <h2 id = "info-about"> Weekly Service</h2>
+          <p id = "info-about-service">9am at 821 South Aiken Avenue
+            Pittsburgh, PA 15232</p>
+        </div>
+        <a class="waves-effect waves-light btn-large" id = "info-button"> About our Church</a>
       </div>
       <div id = "info-picture">
         <img id = "info-img" src="/assets/Screen_Shot_2023-11-28_at_10.11.02_AM-removebg-preview.png"
           alt="church logo"/> 
       </div>
     </div>
-    <div id = "verse-picture">
-      <p> 1 PETER 2:9 </p>
-      <p> Proclaim the excellencies of him who called 
-        you out of darkness into his marvelous light. </p>
-      <img src="/assets/Screen_Shot_2023-11-28_at_10.11.02_AM-removebg-preview.png"
-          alt="church logo"/> 
+    <div id = "cards">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="/assets/CC2E3FB3-6D7B-4DB8-8445-BAD5FEFB3493_1_201_a.jpeg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Connect<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">Contact Us</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Connect<i class="material-icons right">close</i></span>
+          <p>We'd love to hear more from you! If you're interested in getting in contact with one of our church members, please send us your email and message using the link below.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="/assets/941B18C8-8E81-44BF-8B73-E108DC044F27_1_201_a.jpeg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Community<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">Becoming involved</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Community<i class="material-icons right">close</i></span>
+          <p>Our church has various community groups for college students and adults. We also have weekly prayer meetings as well as other ways to serve and become more involved in the church.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="/assets/F19C9E7A-0EB5-400C-AA25-870BB8BFE33C_1_201_a.jpeg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Online<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">Listen from home</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Online<i class="material-icons right">close</i></span>
+          <p>Our church records our service each week live! You can view our past sermons as well as join the service at home.</p>
+        </div>
+      </div>
+    </div>
+    <div id = "carousel-info">
+      <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+          <a class="btn waves-effect white grey-text darken-text-2">button</a>
+        </div>
+        <i class="material-icons left-icon">chevron_left</i>
+        <div class="carousel-item red white-text" href="#one!">
+          <h2>Announcements</h2>
+          <p class="white-text">This is your first panel</p>
+        </div>
+        <div class="carousel-item amber white-text" href="#two!">
+          <h2>Upcoming Events</h2>
+          <p class="white-text">This is your second panel</p>
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+          <h2>Last Week's Sermon</h2>
+          <p class="white-text">This is your third panel</p>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!">
+          <h2>Fourth Panel</h2>
+          <p class="white-text">This is your fourth panel</p>
+        </div>
+        <i class="material-icons right-icon">chevron_right</i>
+      </div>
     </div>
   </body>

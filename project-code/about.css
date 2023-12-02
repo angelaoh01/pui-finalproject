@@ -1,0 +1,155 @@
+* {
+    box-sizing: content-box;
+}
+
+@font-face {
+    font-family: dm-reg;
+    src: url(/assets/dmsans/DMSans-Regular.ttf);
+  }
+@font-face {
+font-family: dm-bold;
+src: url(/assets/dmsans/DMSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: dm-medium;
+    src: url(/assets/dmsans/DMSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: dm-italic;
+    src: url(/assets/dmsans/DMSans-Italic.ttf);
+}
+@font-face {
+    font-family: dm-med-italic;
+    src: url(/assets/dmsans/DMSans-MediumItalic.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: #ebebde;
+}
+
+body {
+    background-color: #ebebde;
+    font-family: dm-reg;
+    font-size: 30px;
+    font-weight: 100;
+
+    /* center content */
+}
+h1 {
+    color: #777764;
+    text-align: center;
+    font-family: dm-medium;
+    text-transform:uppercase;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: 900;
+    }
+
+h2 {
+    color: #4f4747;
+    text-align: center;
+    font-family: dm-italic;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight:300;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-top: 3%;
+    height:fit-content;
+    background-color: #777764;
+    z-index: 2;
+}
+
+#nav-bar > a{
+    padding-left: 5%;
+}
+
+#nav-options{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 70%;
+    justify-content: space-around;
+    background-color: #777764;
+    align-items: center;
+}
+
+#nav-options > a{
+    font-family: dm-medium;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#logo {
+    width: 70%;
+}
+
+#title{
+    margin-top: 30%;
+}
+#title > h1{
+    text-align: left;
+    margin-left: 10%;
+}
+
+/*Tab Section*/
+/* Style the tab */
+* {box-sizing: border-box}
+
+#add-info {
+    padding-top: 5%;
+}
+.tab {
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    font-size: 20px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: #777764;
+    font-family: dm-medium;
+    padding: 20px 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: right;
+    padding: 0px 30px;
+    margin-right: 5%;
+    width: 65%;
+    border-left: none;
+    height: 300px;
+    display: none;
+  }
+
+  #Mission > h3 {
+    margin-top: 0%;
+  }
