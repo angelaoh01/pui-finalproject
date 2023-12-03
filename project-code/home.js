@@ -1,3 +1,13 @@
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.slider');
+  let options = {
+    indicators: true,
+    height: 800,
+    duration: 500,
+    interva: 6000,
+  };
+  var instances = M.Slider.init(elems, options);
+});
 
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.carousel');

@@ -63,8 +63,8 @@ h2 {
     position: fixed;
     width: 100%;
     top: 0;
-    padding-top: 3%;
-    height:fit-content;
+    padding: 2%;
+    height: fit-content;
     background-color: #777764;
     z-index: 4;
 }
@@ -97,7 +97,7 @@ h2 {
     position: relative;
     display: flex;
     height: 800px;
-    margin-top: 10%;
+    margin-top: 8%;
     background-image: url(/assets/imageedit_1_4705680061.png);
     background-size:cover;
 }
@@ -249,6 +249,10 @@ h2 {
     color: #cbcbc1;
 }
 
+.carousel .carousel-item {
+    background-color: #777764 !important;
+}
+
 #carousel-info{
     width: 100%;
     position: relative;
@@ -263,17 +267,51 @@ h2 {
     cursor: pointer; /* Add pointer cursor for interaction */
   }
   
-  .left-icon {
-    left: 30px; /* Adjust left positioning as needed */
-    z-index: 3;
-  }
-  
-  .right-icon {
-    right: 30px; /* Adjust right positioning as needed */
-  }
-.material-icons {
-    color:#2a2828;
+.left-icon {
+left: 30px; /* Adjust left positioning as needed */
+z-index: 3;
 }
+
+.right-icon {
+right: 30px; /* Adjust right positioning as needed */
+}
+.material-icons {
+    color:#ebebde;
+}
+.carousel-item > h2{
+    font-family: dm-bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:#ebebde;
+}
+.carousel-item > h3{
+    font-family: dm-medium;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:#ebebde;
+}
+.carousel.carousel-slider .carousel-item p{
+    font-family: dm-reg;
+    font-size: 14px;
+    color:#ebebde;
+}
+.special-list{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.carousel-item > ul{
+    font-family: dm-reg;
+    font-size: 12px;
+    color:#ebebde;
+    text-align: center;
+}
+.title-semicolon {
+    font-family: dm-bold;
+    font-size: 14px;
+}
+
 #add-info {
     margin-top: 16%;
 }
