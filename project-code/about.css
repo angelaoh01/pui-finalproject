@@ -4,25 +4,25 @@
 
 @font-face {
     font-family: dm-reg;
-    src: url(/assets/dmsans/DMSans-Regular.ttf);
+    src: url(/pui-finalproject/assets/dmsans/DMSans-Regular.ttf);
   }
 @font-face {
 font-family: dm-bold;
-src: url(/assets/dmsans/DMSans-Bold.ttf);
+src: url(/pui-finalproject/assets/dmsans/DMSans-Bold.ttf);
 }
 
 @font-face {
     font-family: dm-medium;
-    src: url(/assets/dmsans/DMSans-Medium.ttf);
+    src: url(/pui-finalproject/assets/dmsans/DMSans-Medium.ttf);
 }
 
 @font-face {
     font-family: dm-italic;
-    src: url(/assets/dmsans/DMSans-Italic.ttf);
+    src: url(/pui-finalproject/assets/dmsans/DMSans-Italic.ttf);
 }
 @font-face {
     font-family: dm-med-italic;
-    src: url(/assets/dmsans/DMSans-MediumItalic.ttf);
+    src: url(/pui-finalproject/assets/dmsans/DMSans-MediumItalic.ttf);
 }
 
 a{
