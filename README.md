@@ -1,2 +1,1 @@
-# pui-finalproject
-PUI final project - Church website redesign
+Deployed website: https://angelaoh01.github.io/pui-finalproject
