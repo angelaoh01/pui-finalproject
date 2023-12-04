@@ -1,4 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
+  var sidenav = document.getElementById('mySidenav');
+  var toggleButton = document.getElementById('sidenav-trigger');
+
+  toggleButton.addEventListener('click', function() {
+    if (sidenav.style.display === 'block' || getComputedStyle(sidenav).display === 'block') {
+      sidenav.style.display = 'none';
+    } else {
+      sidenav.style.display = 'block';
+    }
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.slider');
   let options = {
     indicators: true,

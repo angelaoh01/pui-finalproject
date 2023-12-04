@@ -1,6 +1,3 @@
-* {
-    box-sizing: content-box;
-}
 
 @font-face {
     font-family: dm-reg;
@@ -63,8 +60,9 @@ h2 {
     position: fixed;
     width: 100%;
     top: 0;
-    padding: 2%;
-    height: fit-content;
+    padding: 3%;
+    padding-top: 5%;
+    height: 2%;
     background-color: #777764;
     z-index: 4;
 }
@@ -88,19 +86,28 @@ h2 {
     font-size: 20px;
 }
 
-#logo {
+#logo-parent{
+    display: flex;
+}
+
+#nav-bar img{
+    flex-basis: 30%;
     width: 70%;
+    align-self: center;
 }
 /* SECTION 1: FRONT PAGE */
 
-#main {
+#dynamic-main{
+    margin-top: 8%;
+}
+/*#main {
     position: relative;
     display: flex;
     height: 800px;
     margin-top: 8%;
     background-image: url(/assets/imageedit_1_4705680061.png);
     background-size:cover;
-}
+} */
 
 /*
 #main::before{
@@ -114,7 +121,7 @@ h2 {
     left: 0px;
     opacity: 0.5;
 } */
-#main-title {
+ #main-title {
     position: relative;
     flex-basis: 100%;
     align-self: center;
@@ -146,10 +153,12 @@ h2 {
 
 #info-description > h2{
     text-align: left;
+    color:#4f4747;
 }
 
 #info-description > p{
     font-size: 20px;
+    color:#4f4747;
 }
 
 
@@ -165,6 +174,7 @@ h2 {
     font-size: 22px;
     text-align: left;
     margin: 2%;
+    color:#4f4747
 }
 
 #info-about-service {
@@ -172,7 +182,7 @@ h2 {
     font-size: 22px;
     padding-bottom: 5%;
     margin: 2%;
-    color: #777764;
+    color: #4f4747;
 }
 
 #info-button{
@@ -180,7 +190,7 @@ h2 {
     background-color: #4f4747;
 }
 #info-picture{
-    flex-basis: 60%;
+    flex-basis: 50%;
     align-self: center;
 }
 
@@ -227,7 +237,7 @@ h2 {
     padding: 0px;
     padding-left: 5%;
     padding-right: 5%;
-    width: 90%;
+    width: 100%;
     height: 100%;
 }
 
@@ -316,4 +326,65 @@ right: 30px; /* Adjust right positioning as needed */
     margin-top: 16%;
 }
 
+.page-footer{
+    margin-top: 10%;
+    background-color: #4f4747;
+    padding: 3%;
+}
+
+.page-footer .footer-copyright{
+    background-color: #4f4747;
+}
+
+
+.sidenav {
+    height: 100%; /* Full height */
+    width: 250px; /* Initially hidden */
+    position: fixed; /* Fixed position */
+    top: 0;
+    left: 0;
+    background-color: #f0f0f0; /* Sidebar background color */
+    overflow-x: hidden; /* Hide scrollbar */
+    padding-top: 60px; /* Space for header */
+    transition: 0.5s; /* Smooth transition */
+  }
+  
+  .sidenav a {
+    padding: 15px 8px 15px 32px; /* Add padding */
+    text-decoration: none; /* Remove underlines */
+    font-size: 20px; /* Adjust font size */
+    display: block; /* Display block for full-width links */
+    transition: 0.3s; /* Smooth transition */
+  }
+  
+  .sidenav a:hover {
+    background-color: #ddd; /* Background color on hover */
+  }
+  
+  /* Style for the toggle button */
+  #sidenav-trigger {
+    display: none; /* Hide by default for larger screens */
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    #nav-bar {
+        display: none;
+      }
+    #sidenav-trigger {
+      display: block; /* Show the toggle button */
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 999; /* Ensure it's above other content */
+    }
+    #sidenav-trigger > i{
+        color:#ebebde;
+        background-color: #4f4747;
+    }
+  
+    .sidenav {
+      width: 250px; /* Set the width of the sidenav */
+    }
+  }
 

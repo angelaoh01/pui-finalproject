@@ -93,11 +93,12 @@ h2 {
 }
 
 #title{
-    margin-top: 30%;
+    margin-top: 10%;
+    padding-top: 5%;
 }
 #title > h1{
     text-align: left;
-    margin-left: 10%;
+    padding-left: 10%;
 }
 
 /*Tab Section*/
@@ -105,7 +106,7 @@ h2 {
 * {box-sizing: border-box}
 
 #add-info {
-    padding-top: 5%;
+    padding-top: 2%;
 }
 .tab {
     float: left;
@@ -118,7 +119,7 @@ h2 {
   .tab button {
     display: block;
     background-color: inherit;
-    color: #777764;
+    color: #4f4747;
     font-family: dm-medium;
     padding: 20px 10px;
     width: 100%;
@@ -148,8 +149,39 @@ h2 {
     border-left: none;
     height: 300px;
     display: none;
+    color: #4f4747;
   }
 
-  #Mission > h3 {
-    margin-top: 0%;
-  }
+.tabcontent > h2 {
+    margin-top: 0px;
+    color: #4f4747;
+    font-family: dm-medium;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.tabcontent > h3 {
+    color: #4f4747;
+    font-family: dm-medium;
+    font-size: 30px;
+    text-align: left;
+    
+}
+.tabcontent > p {
+    color: #4f4747;
+    font-family: dm-reg;
+    font-size: 28px;
+    text-align: left;
+    
+}
+
+.tabcontent img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+.tablinks {
+    text-transform: uppercase;
+}
