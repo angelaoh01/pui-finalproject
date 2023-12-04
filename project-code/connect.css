@@ -133,4 +133,13 @@ p {
     height: 400px;
 }
 
+.page-footer{
+    margin-top: 10%;
+    background-color: #4f4747;
+    padding: 3%;
+}
+
+.page-footer .footer-copyright{
+    background-color: #4f4747;
+}
 

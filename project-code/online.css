@@ -142,3 +142,13 @@ hr{
 .online-recent iframe{
     margin-top: 5%;
 }
+
+.page-footer{
+    margin-top: 10%;
+    background-color: #4f4747;
+    padding: 3%;
+}
+
+.page-footer .footer-copyright{
+    background-color: #4f4747;
+}
