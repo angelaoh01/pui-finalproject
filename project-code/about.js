@@ -3,7 +3,8 @@ window.onload = function() {
     document.getElementById('defaultOpen').dispatchEvent(new Event('mouseover'));
   };
 
-function openCity(evt, cityName) {
+function openContent(evt, optionName) {
+  adjustTabContentHeight(optionName);
     // Declare all variables
     var i, tabcontent, tablinks;
   
@@ -20,7 +21,19 @@ function openCity(evt, cityName) {
     }
   
     // Show the current tab, and add an "active" class to the link that opened the tab
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(optionName).style.display = "block";
     evt.currentTarget.className += " active";
-  }
 
+    setTimeout(function() {
+      adjustTabContentHeight(optionName);
+    }, 100);
+  }
+  function adjustTabContentHeight(optionName) {
+    var currentTabContent = document.getElementById(optionName);
+  currentTabContent.style.height = 'auto'; // Set height to 'auto' first
+  var contentHeight = currentTabContent.scrollHeight; // Get scroll height
+  currentTabContent.style.height = contentHeight + 'px'; // Set actual height
+  
+  // Use CSS transitions for smooth height adjustment
+  currentTabContent.style.transition = "height 0.3s ease-in-out";
+  }
