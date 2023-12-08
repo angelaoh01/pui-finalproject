@@ -24,14 +24,17 @@
     left: 0px;
     opacity: 0.5;
 } */
-
+#pittsburgh{
+    opacity: 90%;
+}
  #main-title {
     position: relative;
     flex-basis: 100%;
     align-self: center;
     font-size: 100px;
-    color: rgb(255, 255, 255); 
-    text-shadow: 3px 3px #2a2828;
+    letter-spacing: .2rem;
+    font-weight: 2000;
+    color: #4f4747; 
 } 
 
 #main-worship{
