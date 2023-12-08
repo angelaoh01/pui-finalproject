@@ -1,3 +1,4 @@
+//slideshow
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.slider');
   let options = {
@@ -9,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var instances = M.Slider.init(elems, options);
 });
 
+//info carousel
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.carousel');
   let options = {

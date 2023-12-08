@@ -29,7 +29,6 @@ h2 {
 
 
 /*Tab Section*/
-/* Style the tab */
 #add-info {
     padding-top: 2%;
     display: flex;
@@ -41,8 +40,7 @@ h2 {
     font-size: 20px;
   }
   
-  /* Style the buttons that are used to open the tab content */
-  .tab button {
+.tab button {
     display: block;
     background-color: inherit;
     color: #4f4747;
@@ -53,21 +51,20 @@ h2 {
     outline: none;
     text-align: left;
     cursor: pointer;
-  }
+}
 
   
-  /* Change background color of buttons on hover */
-  .tab button:hover {
+.tab button:hover {
     background-color: #ddd;
-  }
+}
   
-  /* Create an active/current "tab button" class */
-  .tab button.active {
+
+.tab button.active {
     background-color: #ccc;
-  }
+}
   
-  /* Style the tab content */
-  .tabcontent {
+
+.tabcontent {
     float: right;
     padding: 0px 30px;
     margin-right: 5%;
@@ -76,7 +73,7 @@ h2 {
     height: 300px;
     display: none;
     color: #4f4747;
-  }
+}
 
 .tabcontent > h2 {
     margin-top: 0px;
@@ -84,7 +81,6 @@ h2 {
     font-family: dm-medium;
     font-size: 50px;
     text-align: center;
-    
 }
 .tabcontent > h3 {
     color: #4f4747;
@@ -98,7 +94,6 @@ h2 {
     font-family: dm-reg;
     font-size: 28px;
     text-align: left;
-    
 }
 
 .tabcontent img{

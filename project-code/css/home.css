@@ -28,21 +28,6 @@
     opacity: 80%;
 }
 
-#main-slide{
-    background-color: #4f47478d;
-}
- #main-title {
-    position: relative;
-    flex-basis: 100%;
-    align-self: center;
-    font-size: 100px;
-    letter-spacing: .2rem;
-    font-weight: 2000;
-    color: #fff9ed;
-    text-shadow: 1px 1px 2px black;
-    
-    
-} 
 
 #main-worship{
     padding: 3%;
@@ -199,26 +184,26 @@
     position: relative;
   }
   
-  .left-icon,
-  .right-icon {
+.left-icon,
+.right-icon {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 100px; /* Adjust icon size as needed */
-    cursor: pointer; /* Add pointer cursor for interaction */
-  }
+    font-size: 100px; 
+    cursor: pointer; 
+}
   
 .left-icon {
-left: 30px; /* Adjust left positioning as needed */
-z-index: 3;
-color: white;
-background-color: #777764;
+    left: 30px; 
+    z-index: 3;
+    color: white;
+    background-color: #777764;
 }
 
 .right-icon {
-right: 30px; /* Adjust right positioning as needed */
-color: rgb(255, 255, 255);
-background-color: #777764;
+    right: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #777764;
 }
 
 .carousel-item > h2{
