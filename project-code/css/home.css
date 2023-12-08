@@ -179,7 +179,9 @@
     background-color: gray;
 }
 .carousel .carousel-item {
-    background-color: #4f4747 !important;
+    background-color: #777764 !important;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #carousel-info{
@@ -200,11 +202,13 @@
 left: 30px; /* Adjust left positioning as needed */
 z-index: 3;
 color: white;
+background-color: #777764;
 }
 
 .right-icon {
 right: 30px; /* Adjust right positioning as needed */
 color: rgb(255, 255, 255);
+background-color: #777764;
 }
 
 .carousel-item > h2{
