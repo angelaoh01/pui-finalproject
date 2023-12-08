@@ -24,17 +24,14 @@
     left: 0px;
     opacity: 0.5;
 } */
-#retreat{
-    opacity: 70%;
-    
-}
+
  #main-title {
     position: relative;
     flex-basis: 100%;
     align-self: center;
-    font-size: 90px;
+    font-size: 100px;
     color: rgb(255, 255, 255); 
-    text-shadow: 8px 8px #2a2828;
+    text-shadow: 3px 3px #2a2828;
 } 
 
 #main-worship{
