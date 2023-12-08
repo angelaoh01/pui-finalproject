@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     indicators: true,
     height: 800,
     duration: 500,
-    interval: 2000,
+    interval: 2500,
   };
   var instances = M.Slider.init(elems, options);
 });

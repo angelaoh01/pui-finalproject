@@ -27,6 +27,10 @@
 #pittsburgh{
     opacity: 80%;
 }
+
+#main-slide{
+    background-color: #4f47478d;
+}
  #main-title {
     position: relative;
     flex-basis: 100%;
@@ -34,7 +38,7 @@
     font-size: 100px;
     letter-spacing: .2rem;
     font-weight: 2000;
-    color: #fff8e8;
+    color: #fff9ed;
     text-shadow: 1px 1px 2px black;
     
     
