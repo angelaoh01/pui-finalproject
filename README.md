@@ -1,1 +1,1 @@
-Deployed website: https://angelaoh01.github.io/pui-finalproject/
+https://angelaoh01.github.io/pui-finalproject/
