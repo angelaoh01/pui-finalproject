@@ -24,14 +24,27 @@
     left: 0px;
     opacity: 0.5;
 } */
+#retreat{
+    opacity: 70%;
+}
  #main-title {
     position: relative;
     flex-basis: 100%;
     align-self: center;
     font-size: 90px;
     color: rgb(255, 255, 255); 
-    text-shadow: 4px 4px #2a2828;
+    text-shadow: 8px 8px #2a2828;
 } 
+
+#main-worship{
+    padding: 3%;
+    background-color: #2a2828ac;
+}
+
+#main-verse{
+    padding: 3%;
+    background-color: #2a28289e;
+}
 
 /* SECTION 2: INFO */
 
@@ -168,7 +181,7 @@
     background-color: gray;
 }
 .carousel .carousel-item {
-    background-color: #777764 !important;
+    background-color: #4f4747 !important;
 }
 
 #carousel-info{
@@ -193,7 +206,7 @@ color: white;
 
 .right-icon {
 right: 30px; /* Adjust right positioning as needed */
-color: aliceblue;
+color: rgb(255, 255, 255);
 }
 
 .carousel-item > h2{
