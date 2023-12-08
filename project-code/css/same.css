@@ -121,6 +121,7 @@ h2 {
 
 #nav-options > a{
     font-family: dm-medium;
+    color: white;
     text-transform: uppercase;
     font-size: 18px;
 }
@@ -148,7 +149,14 @@ h2 {
 
 .page-footer .footer-copyright{
     background-color: #4f4747;
+    
 }
+
+.page-footer .footer-copyright .container{
+    color: white;
+    
+}
+
 
 #contact:hover{
     background-color: gray;
